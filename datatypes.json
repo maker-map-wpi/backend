@@ -1,0 +1,54 @@
+{
+  resource: {
+    uuid: UUID4,
+    type: string,
+    name: string,
+    traning: UUID4,
+    shop: UUID4,
+    calender:calender
+  },
+  shop: {
+		uuid:UUID4,
+    manager: faculty,
+    name: string,
+    hours: {
+      M: {
+        open: time,
+        close: time
+      },
+      T: {
+        open: time,
+        close: time
+      },
+      W: {
+        open: time,
+        close: time
+      },
+      TH: {
+        open: time,
+        close: time
+      },
+      F: {
+        open: time,
+        close: time
+      },
+      SA: {
+        open: time,
+        close: time
+      },
+      SU: {
+        open: time,
+        close: time
+      },
+    },
+    opem: boolean,
+  },
+  student: {}
+  professor: {},
+  facutly: {},
+  training: {
+    link:string,
+    uuid:UUID4,
+  },
+  calender: {}
+}
