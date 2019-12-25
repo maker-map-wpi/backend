@@ -1,0 +1,17 @@
+{
+  "id":"auto incrementing number+",
+  "name":"String",
+  "description":"String",
+  "calender":"calender id assocciated with tool",
+  "open hours":"hour:min",
+  "close hours":"hour:min",
+  "parent_resource":[
+    "list of resource id"
+  ],
+  "managers":[
+    "list of user ids"
+  ],
+  "tags":[
+    "list of tag ids."
+  ]
+}

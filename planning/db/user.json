@@ -1,0 +1,19 @@
+{
+  "id":"auto incrementing number",  
+  "name":"String",
+  "wpi_id":"number #not sure if allowed to store",
+  "email":"wpi associated email address #could be possibly used for identification as well here to send reminder and updates.",
+  "tags":[
+          "#in reality this list will be a list tag ids of im putting words down cause its easier to explain ",
+          "faculty",
+          "manager",
+          "administration",
+          "student",
+          "RBE",
+          "ECE",
+          "CS",
+          "ME",
+          "...",
+          "this is a infinite list with an unlimited amount of tags being created and stored."
+  ]
+}
